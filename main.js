@@ -1,4 +1,4 @@
-$(function () {
+
     $(".openbtn1").click(function () {//ボタンがクリックされたら
         $(this).toggleClass('active');//ボタン自身に activeクラスを付与し
         $("#navi").toggleClass('panelactive');//ナビゲーションにpanelactiveクラスを付与
@@ -9,4 +9,3 @@ $(function () {
         $(".navi").removeClass('panelactive');//ナビゲーションのpanelactiveクラスも除去
 
     });
-});
